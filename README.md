@@ -229,7 +229,7 @@ int main() {
     getchar(); // To consume the newline character left by scanf
 
     printf("Enter the second string: ");
-    scanf("%[^\n]", c1);
+    scanf("%[^\n]", c2);
     while (c1[i] != '\0' && c2[i] != '\0') {
         if (c1[i] != c2[i]) {
             flag = 1;
